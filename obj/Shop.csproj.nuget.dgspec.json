@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learning\\Shop\\Shop.csproj": {}
+    "C:\\Learning\\balta\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Learning\\Shop\\Shop.csproj": {
+    "C:\\Learning\\balta\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Learning\\balta\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Learning\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\Israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning\\Shop\\obj\\",
+        "projectPath": "C:\\Learning\\balta\\Shop.csproj",
+        "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
+        "outputPath": "C:\\Learning\\balta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,7 +38,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
@@ -65,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
